@@ -1,7 +1,5 @@
 package com.wizarpos.payment.padui;
 
-import com.wizarpos.payment.padui.R;
-
 import android.app.Activity;
 import android.os.Bundle;
 

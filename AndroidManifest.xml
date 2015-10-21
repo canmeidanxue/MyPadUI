@@ -22,9 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.wizarpos.payment.padui.cashier.activity.PaymentChooseMenuActivity"/>
+        <activity android:name="com.wizarpos.payment.padui.cashier.activity.MainMenuActivity"/>
         <activity android:name="com.wizarpos.payment.padui.manage.OperatorManageActivity"/>
         <activity android:name="com.wizarpos.payment.padui.manage.InputPasswordActivity"/>
+        <activity android:name="com.wizarpos.payment.padui.setting.SettingMainMenActivity"/>
     </application>
 
 </manifest>

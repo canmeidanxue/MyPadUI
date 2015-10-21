@@ -2,10 +2,11 @@ package com.wizarpos.payment.padui.manage;
 
 import com.wizarpos.payment.padui.R;
 import com.wizarpos.payment.padui.common.BaseViewActivity;
+import com.wizarpos.payment.padui.setting.SettingMainMenActivity;
 import com.wizarpos.payment.padui.view.fragment.InputPadFragment;
 import com.wizarpos.payment.padui.view.fragment.InputPadFragment.InputType;
 
-import android.R.integer;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -41,6 +42,7 @@ public class InputPasswordActivity extends BaseViewActivity {
 			break;
 			
 		case R.id.btn_confirm_password:
+			startActivity(new Intent(InputPasswordActivity.this,SettingMainMenActivity.class));
 			this.finish();
 			break;
 

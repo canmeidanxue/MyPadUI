@@ -18,5 +18,7 @@ public class OperatorManageActivity extends BaseViewActivity {
 	private void initView(){
 		setMainView(R.layout.activity_operator_manage);
 		setTitleText("操作员管理");
+		findViewById(R.id.)
+		
 	}
 }

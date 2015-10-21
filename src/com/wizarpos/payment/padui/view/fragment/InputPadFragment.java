@@ -1,5 +1,8 @@
 package com.wizarpos.payment.padui.view.fragment;
 
+import com.wizarpos.atool.tool.Tools;
+import com.wizarpos.payment.padui.R;
+
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.text.TextUtils;
@@ -9,9 +12,6 @@ import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
 import android.view.ViewGroup;
 import android.widget.EditText;
-
-import com.wizarpos.atool.tool.Tools;
-import com.wizarpos.payment.padui.R;
 
 /**
  * 键盘fragment

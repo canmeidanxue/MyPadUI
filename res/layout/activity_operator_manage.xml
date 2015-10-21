@@ -32,29 +32,29 @@
         android:paddingTop="20dp" >
 
         <Button
+            android:id="@+id/btn_prepage"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selector_nextpage"
-            android:onClick="doPrePage"
             android:text="上一页"
             android:textColor="@android:color/white" />
 
         <Button
+            android:id="@+id/btn_nextpage"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:background="@drawable/btn_selector_nextpage"
-            android:onClick="doNextPage"
             android:text="下一页"
             android:textColor="@android:color/white" />
 
         <Button
-            android:id="@+id/tl_btn_add"
+            android:id="@+id/btn_add_cashier"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             android:textColor="@android:color/white" />
 
         <Button
-            android:id="@+id/tl_btn_modify"
+            android:id="@+id/btn_modify_cashierinfo"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
             android:textColor="@android:color/white" />
 
         <Button
-            android:id="@+id/tl_btn_del"
+            android:id="@+id/btn_del_cashierinfo"
             style="?android:attr/buttonBarButtonStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

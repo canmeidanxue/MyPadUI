@@ -1,7 +1,7 @@
 package com.wizarpos.payment.padui.login;
 
 import com.wizarpos.payment.padui.R;
-import com.wizarpos.payment.padui.cashier.activity.PaymentChooseMenuActivity;
+import com.wizarpos.payment.padui.cashier.activity.MainMenuActivity;
 import com.wizarpos.payment.padui.common.BaseViewActivity;
 import com.wizarpos.payment.padui.view.fragment.InputPadFragment;
 import com.wizarpos.payment.padui.view.fragment.InputPadFragment.InputType;
@@ -47,7 +47,7 @@ public class LoginActivity extends BaseViewActivity {
 			LoginActivity.this.finish();
 			break;
 		case R.id.btn_confirm:
-			startActivity(new Intent(LoginActivity.this, PaymentChooseMenuActivity.class));
+			startActivity(new Intent(LoginActivity.this, MainMenuActivity.class));
 			this.finish();
 			break;
 		}
